@@ -1,0 +1,1 @@
+mysql://avnadmin:AVNS_kDaCzpSHbZgcadnz4lo@mysql-249291b3-mohamezzz700-5917.g.aivencloud.com:17827/defaultdb?ssl-mode=REQUIRED
