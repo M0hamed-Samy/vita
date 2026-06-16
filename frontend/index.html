@@ -2773,7 +2773,7 @@ function toggleTheme() {
 
 // ===== VITAPRO BACKEND INTEGRATION (keeps original frontend UI) =====
 const VITAPRO_API_BASE = localStorage.getItem('vitapro_api_base')
-  || (window.location.protocol === 'https:' ? 'https://127.0.0.1:8000' : 'http://127.0.0.1:8000');
+  || (window.location.protocol === 'https:' ? 'https://perkiness-shrapnel-distort.ngrok-free.dev' : 'https://perkiness-shrapnel-distort.ngrok-free.dev');
 let latestPredictionResult = null;
 try {
   latestPredictionResult = JSON.parse(localStorage.getItem('vitapro_latest_prediction') || 'null');
